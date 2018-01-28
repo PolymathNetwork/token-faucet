@@ -1,0 +1,40 @@
+{
+  "name": "polymath-token-faucet",
+  "version": "0.0.1",
+  "description": "Ethereum smart contracts for the POLY token faucet",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "",
+    "compile": "truffle compile",
+    "migrate-local": "truffle migrate --network=local --reset",
+    "migrate-ropsten": "truffle migrate --network=ropsten --reset",
+    "flatten": "sol-merger './contracts/*.sol' ./flat"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/PolymathNetwork/polymath-token-faucet.git"
+  },
+  "author": "Polymath Inc.",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PolymathNetwork/polymath-token-faucet/issues"
+  },
+  "homepage": "https://github.com/PolymathNetwork/polymath-token-faucet#readme",
+  "dependencies": {
+    "babel-polyfill": "6.26.0",
+    "babel-preset-es2015": "6.24.1",
+    "babel-preset-stage-2": "6.24.1",
+    "babel-preset-stage-3": "6.24.1",
+    "babel-register": "6.26.0",
+    "solc": "0.4.17",
+    "truffle": "4.0.1",
+    "truffle-contract": "^3.0.1"
+  },
+  "devDependencies": {
+    "sol-merger": "0.1.2",
+    "testrpc": "0.0.1"
+  }
+}

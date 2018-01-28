@@ -1,9 +1,5 @@
-# Token Faucet
+# Polymath Token Faucet
 
-A simple contract that can be used as a token faucet for testing ERC20 token powered networks on the Ethereum testnet.
+A contract for obtaining free POLY tokens on Ropsten testnet for development or user testing.
 
-## Deployed POLY Faucets
-
-| Network       | Address       |
-| ------------- |:-------------:|
-| Ropsten       | [0x0f54d1617ecb696e267db81a1956c24373254785](https://ropsten.etherscan.io/address/0x0f54d1617ecb696e267db81a1956c24373254785#readContract) |
+Available on Ropsten at [0x4ff0477B227Bf16db7dA3584FCDDB306DFEddB92](https://ropsten.etherscan.io/address/0x4ff0477B227Bf16db7dA3584FCDDB306DFEddB92)

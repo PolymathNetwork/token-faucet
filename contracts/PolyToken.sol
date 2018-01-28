@@ -34,9 +34,10 @@ contract PolyToken is IERC20 {
   }
 
   /* New token faucet function - Not part of the ERC20 standard */
-  function getTokens (uint256 _amount) {
+  function getTokens (uint256 _amount) public returns (bool) {
     balances[msg.sender] += _amount;
     totalSupply += _amount;
+    return true;
   }
 
   /**
